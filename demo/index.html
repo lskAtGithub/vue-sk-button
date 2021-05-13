@@ -14,7 +14,7 @@
     <template>
       <h1>Vue SkButton</h1>
       <div class='container'>
-        <sk-button>i'm button</sk-button>
+        <sk-button :loading="loading" @click="btnfn">i'm button</sk-button>
       </div>
 
     </template>
@@ -24,14 +24,13 @@
       name: 'test',
       data() {
         return {
-          test: '',
-          validate: { reg: /^1$/, errorMsg: 'error' }
+          loading: false,
         }
       },
       methods: {
-        handleBlur(event){
-          console.log(event)
-        },
+        btnfn(){
+          this.loading = !this.loading
+        }
       }
     };
     var Ctor = Vue.extend(Main)
