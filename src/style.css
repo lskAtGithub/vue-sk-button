@@ -69,30 +69,33 @@
 }
 /* type */
 .sk__type__default.sk__link{
-  color: #271c1c;
-  background-color: #b3b5b8;
-  box-shadow: 0px 5px 0px 0px #82858a;
+  color: #fff;
+  background-color: #9ea2a8;
+  box-shadow: 0px 5px 0px 0px #7c7d80;
+}
+.sk__type__default.sk__link.onClick:hover{
+  background-color: #a6a9ad;
 }
 .sk__type__success.sk__link{
   color: #fff;
   background: #55acee;
   box-shadow: 0px 5px 0px 0px #3C93D5;
 }
-.sk__type__success.sk__link:hover{
+.sk__type__success.sk__link.onClick:hover{
   background-color: #6FC6FF;
 }
 .sk__type__danger.sk__link{
   background-color: #e74c3c;
   box-shadow: 0px 5px 0px 0px #CE3323;
 }
-.sk__type__danger.sk__link:hover {
+.sk__type__danger.sk__link.onClick:hover {
   background-color: #FF6656;
 }
 .sk__type__warning.sk__link{
   background-color: #e6a442;
   box-shadow: 0px 5px 0px 0px #ce8f30;
 }
-.sk__type__warning.sk__link:hover{
+.sk__type__warning.sk__link.onClick:hover{
   background-color: #ebb563;
 }
 
@@ -100,25 +103,25 @@
 .sk__type__default.sk__button{
   color: #606266;
 }
-.sk__button.sk__type__default:hover{
+.sk__button.sk__type__default.onClick:hover{
   background: #ecf5ff;
 }
 .sk__type__success.sk__button{
   color: #fff;
   background: #55acee;
 }
-.sk__type__success.sk__button:hover{
+.sk__type__success.sk__button.onClick:hover{
   background-color: #6FC6FF;
 }
 .sk__type__danger.sk__button{
   background-color: #e74c3c;
 }
-.sk__type__danger.sk__button:hover {
+.sk__type__danger.sk__button.onClick:hover {
   background-color: #FF6656;
 }
 .sk__type__warning.sk__button{
   background-color: #e6a442;
 }
-.sk__type__warning.sk__button:hover{
+.sk__type__warning.sk__button.onClick:hover{
   background-color: #ebb563;
 }
