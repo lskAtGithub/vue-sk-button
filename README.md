@@ -1,18 +1,29 @@
-# vue-sk-button
+# vue-sk-input
 
-> A Vue.js project
+## 使用
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+> npm install vue-sk-input
 
-# serve with hot reload at localhost:8080
-npm run dev
+##示例
+```
+<sk-input v-model="test" placeholder="placeholder" :validate="validate: { reg: /^1$/, errorMsg: 'error' }" clearable />
 
-# build for production with minification
-npm run build
+import skInput from 'vue-sk-input'
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+##### Input Attributes
+|  参数   | 说明  |  类型   | 可选值  | 默认值  |
+|  ----  | ----  | ----  | ----  | ----  |
+| disabled | 是否禁用 | boolean | —— | false |
+| loading | 是否等待再次可用 | boolean | —— | false |
+| size | 按钮尺寸 | string | large / default / small / | default |
+| type | 按钮类型 | string | success / default / warning / danger | default |
+| styleType | 3d按钮 or 普通按钮 | string | 3d / default | default |
+
+
+##### Input Events
+|  事件名   | 说明  |  回调参数  |
+|  ----  | ----  | ---- |
+| click | 在点击按钮时触发 | —— |
+
