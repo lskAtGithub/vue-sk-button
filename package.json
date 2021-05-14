@@ -1,6 +1,6 @@
 {
   "name": "vue-sk-button",
-  "description": "A Vue.js project",
+  "description": "基于 vue 的3D按钮组件",
   "version": "1.0.0",
   "author": "lsk <949919743@qq.com>",
   "license": "MIT",
