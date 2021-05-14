@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="sk__button__box">
     <a
       href="javascript:;"
       v-if="styleType === '3d'|| styleType === '3D'"
@@ -72,10 +72,12 @@ export default {
   100%{ transform: rotate(360deg); }
 }
 
-.sk__wrapper{
+.sk__button__box{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: inline;
+  text-align: center;
 }
 .sk__rotate__animation{
   width: 14px;
