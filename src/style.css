@@ -6,6 +6,7 @@
   border-radius: 4px;
   cursor: pointer;
   color: #fff;
+  text-align: center;
 }
 .sk__link{
   color: #fff;
@@ -16,6 +17,7 @@
   border-radius: 4px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 .sk__link.onClick:active{
   transform: translate(0px, 5px);
