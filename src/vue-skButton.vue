@@ -1,5 +1,5 @@
 <template>
-  <div style="sk__button__box">
+  <div class="sk__button__box">
     <a
       href="javascript:;"
       v-if="styleType === '3d'|| styleType === '3D'"
