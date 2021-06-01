@@ -83,7 +83,7 @@ export default {
   width: 14px;
   height: 14px;
   line-height: 14px;
-  margin-right: 8px;
+  margin-right: 3px;
   display: inline-block;
   animation: sk__rotate .8s linear infinite;
   fill: #fff;
